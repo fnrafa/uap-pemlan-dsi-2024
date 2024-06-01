@@ -8,6 +8,10 @@ public class Main {
     static boolean isLogin = false;
 
     public static void main(String[] args) {
+        Film.addFilm("Film Faril vs Kayla", "Film tentang Faril vs Kayla", 30000, 12);
+        Film.addFilm("Film Bagus dan Dhika love each other", "Film tentang cinta yang terlarang", 10000, 5);
+        Film.addFilm("Film Dimas love Nadya", "Film tentang dDimas yang mencintai Nadya", 800000, 2);
+
         User.addUser("user", "123", false, 100000);
         User.addUser("admin", "123", true, 100000);
 
@@ -87,3 +91,5 @@ public class Main {
         }
     }
 }
+
+// Dimas Akmal Andrian (235150707111052)
